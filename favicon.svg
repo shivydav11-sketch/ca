@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e56b3"/>
+      <stop offset="100%" stop-color="#0a192f"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Rounded Shield / Tile -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#blueGrad)" stroke="#3b82f6" stroke-width="1.5"/>
+  
+  <!-- Central Scale & Growth Pillars Symbol (Accounting & Compliance) -->
+  <!-- Center Column -->
+  <rect x="30" y="16" width="4" height="32" rx="2" fill="#ffffff"/>
+  <rect x="24" y="47" width="16" height="4" rx="2" fill="#ffffff"/>
+  
+  <!-- Scale Crossbar -->
+  <path d="M16 23 L48 23" stroke="#93c5fd" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="32" cy="23" r="3.5" fill="#ffffff"/>
+  
+  <!-- Left Pan -->
+  <line x1="20" y1="23" x2="17" y2="33" stroke="#93c5fd" stroke-width="2"/>
+  <line x1="20" y1="23" x2="23" y2="33" stroke="#93c5fd" stroke-width="2"/>
+  <path d="M14 33 C14 37 26 37 26 33 Z" fill="url(#accentGrad)"/>
+  
+  <!-- Right Pan -->
+  <line x1="44" y1="23" x2="41" y2="33" stroke="#93c5fd" stroke-width="2"/>
+  <line x1="44" y1="23" x2="47" y2="33" stroke="#93c5fd" stroke-width="2"/>
+  <path d="M38 33 C38 37 50 37 50 33 Z" fill="url(#accentGrad)"/>
+
+  <!-- Small star / sparkle of precision -->
+  <circle cx="32" cy="13" r="2" fill="#60a5fa"/>
+</svg>
